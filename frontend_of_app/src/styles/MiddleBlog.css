@@ -1,0 +1,47 @@
+.main-header-dev{
+    background-color: rgb(234, 221, 221);
+    padding: 10px;
+}
+.header-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-header-dev img{
+width: 300px;
+height: 200px;
+border-radius: 10px;
+}
+
+
+.second-header-dev img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.third-header-dev img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.fourth-header-dev img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+
+.first-header-dev, .second-header-dev, .third-header-dev, .fourth-header-dev{
+    margin-left: 50px;
+}
+.heder
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

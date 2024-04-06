@@ -1,0 +1,98 @@
+.main-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.head{
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+   
+    color: white;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-head{
+    background-image: url(../../public/chine6.jpeg);
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.second-head{
+    background-image: url(../../public/hawkee.jpg);
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.third-head{
+    background-image: url(../../public/chine8.jpg);
+    width: 500px;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.fourth-head{
+    background-image: url(../../public/chine9.jpg);
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.fifth-head{
+    background-image: url(../../public/chine10.jpg);
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.first-head, .second-head , .third-head , .fourth-head , .fifth-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align items at the bottom */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.first-head:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+.second-head:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+.third-head:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+.fourth-head:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+.fifth-head:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}

@@ -1,0 +1,111 @@
+.main-header-dev-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.header-dev-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adjust the gap size as needed */
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+}
+
+
+.first-header-dev-2 img,
+.second-header-dev-2 img,
+.third-header-dev-2 img,
+.fourth-header-dev-2 img,
+.fifth-header-dev-2 img,
+.sixth-header-dev-2 img,
+.seventh-header-dev-2 img,
+.eighth-header-dev-2 img,
+.ninth-header-dev-2 img
+{    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.first-header-dev, .second-header-dev, .third-header-dev, .fourth-header-dev{
+    margin-left: 50px;
+}
+.heder-2
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-with-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.image-with-text img{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-name{
+    margin-left: 10px;
+}
+.header-devop-top-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+
+ 
+
+        @media screen and (max-width: 1366px) {
+            .first-header-dev-2 img,
+            .second-header-dev-2 img,
+            .third-header-dev-2 img,
+            .fourth-header-dev-2 img,
+            .fifth-header-dev-2 img,
+            .sixth-header-dev-2 img,
+            .seventh-header-dev-2 img,
+            .eighth-header-dev-2 img,
+            .ninth-header-dev-2 img
+            {    width: 350px;
+                height: 200px;
+                border-radius: 10px;
+            }
+            
+
+            .first-header-dev-2 h3,
+.second-header-dev-2 h3,
+.third-header-dev-2 h3,
+.fourth-header-dev-2 h3,
+.fifth-header-dev-2 h3,
+.sixth-header-dev-2 h3,
+.seventh-header-dev-2 h3,
+.eighth-header-dev-2 h3,
+.ninth-header-dev-2 h3{
+    font-size: 18px;
+}
+            }
+
+            @media screen and (min-width: 1366px) {
+             .header-dev-2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             }
+                }
+    
+

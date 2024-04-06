@@ -1,0 +1,215 @@
+.main-profile-devep{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.profile-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* max-width: 1300px; */
+    margin-top: 100px;
+}
+.profile-dev-head-child-1-image img{
+    width: 700px;
+    height: 700px;
+border-radius: 20px;
+
+}
+
+.profile-dev-head-1 {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.image-with-texts{
+    display: flex;
+    align-items: center;
+
+}
+.profile-dev-head-child-2 p {
+    text-align: justify;
+}
+
+.profile-dev-head-child-2 {
+    flex: 2;
+    padding: 20px;
+}
+.profile-dev-head-child-1 {
+    flex: 1;
+}
+.profile-dev-head-child-2 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.profile-dev-head-child-2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.profile-dev-head-child-2 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.image-with-texts img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.image-with-texts {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-texts p {
+ font-size: 23px;
+
+}
+
+.btn_gala{
+    background-color: black;
+color: white;
+border-radius: 50%;
+margin-right: 20px;
+font-size: 30px;
+padding: 20px;
+}
+
+.btn_gala:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.btn_gala:active {
+    background-color: yellow;
+
+}
+
+.buttons_main{
+    margin-top: 50px;
+}
+
+
+
+
+/* subscribe css */
+.last_letter {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.last_letter h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button_with_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_with_image input[type='text'] {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.button_with_image button {
+    padding: 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_with_image button:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+
+
+
+/* Animation.css */
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.profile-dev {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-dev-head-1 {
+    animation: slideIn 1s ease-in-out forwards;
+    margin-bottom: 30px;
+}
+
+.profile-dev-head-1:nth-child(2) {
+    animation-delay: 1s; /* Delay for the second card */
+}
+
+.profile-dev-head-1:nth-child(3) {
+    animation-delay: 2s; /* Delay for the third card */
+}
+
+.profile-dev-head-1:nth-child(4) {
+    animation-delay: 3s; /* Delay for the fourth card */
+}
+
+.profile-dev-head-child-1,
+.profile-dev-head-child-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.profile-dev-head-child-1-image {
+    margin-right: 20px;
+}
+
+.image-with-texts {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-texts img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.top_profile_dev{
+    color: gray;
+    font-size: 70px;
+    text-align: center;
+}
